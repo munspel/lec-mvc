@@ -1,0 +1,26 @@
+{
+    "name": "lisnyak/lecture-mvc",
+    "description": "It is my test mvc project",
+    "type": "project",
+    "version":"1.0.0",
+    "require": {
+        "twig/twig": "^2.4",
+        "nette/http": "v2.4.x-dev",
+        "league/container": "2.4.1",
+        "illuminate/database": "5.5.17",
+        "illuminate/events": "5.5.x-dev"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "L a",
+            "email": "munspel@ukr.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lisnyak\\mvc\\": "src/"
+        }
+    }
+}

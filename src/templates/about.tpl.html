@@ -1,0 +1,18 @@
+{% extends "layouts/index.tpl.html" %}
+
+
+
+{% block content %}
+<h1>About</h1>
+<p class="important">
+    Welcome to my awesome homepage.
+</p>
+{% for box in boxes %}
+<div>{{ box }}</div>
+{% endfor %}
+1
+{{ include('sections/menu.tpl.html') }}
+
+{{ include('sections/menu.tpl.html') }}
+
+{% endblock %}
